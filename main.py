@@ -15,3 +15,12 @@
 
 # Print Weird if the number is weird; otherwise, print Not Weird.
 
+
+user_Integer = input('Enter a integer between 1 and 100::')
+user_Integer = int(user_Integer)
+while user_Integer < 1 or user_Integer > 100: 
+  print("invalid input!")
+  user_Integer = input('Enter a integer between 1 and 100:')
+  user_Integer = int(user_Integer)
+
+

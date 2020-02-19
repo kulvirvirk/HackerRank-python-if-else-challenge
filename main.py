@@ -24,3 +24,11 @@ while user_Integer < 1 or user_Integer > 100:
   user_Integer = int(user_Integer)
 
 
+if user_Integer % 2 == 1:
+  print('Weird')
+elif user_Integer >= 2 and user_Integer <= 5: 
+  print('Not Weird')
+elif user_Integer >= 6 and user_Integer <= 20: 
+  print('Weird')
+elif user_Integer > 20: 
+  print('Not Weird')
